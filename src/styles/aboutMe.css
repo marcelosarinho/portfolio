@@ -1,0 +1,65 @@
+.about-me-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  padding: 0;
+}
+
+.about-me-second-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-third-div {
+  display: flex;
+}
+
+.about-me-image {
+  width: 400px;
+  height: 400px;
+  margin-right: 50px;
+}
+
+.title {
+  font-weight: bold;
+  color: #536DFE;
+}
+
+.info {
+  color: #444053;
+}
+
+.info h4 {
+  font-weight: bold;
+}
+
+.subtitle {
+  padding-top: 30px;
+  color: #536DFE;
+  font-weight: bold;
+}
+
+.technology-flex-div {
+  width: 200px;
+  display: inline-block;
+}
+
+.technology-name {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.technology-logo {
+  width: 75px
+}
+
+.btn {
+  margin-top: 40px;
+}
+
+.button-div {
+  text-align: center;
+}

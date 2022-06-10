@@ -1,0 +1,34 @@
+.project-grid {
+  background-color: #D0D2D5;
+  border-radius: 8px;
+}
+
+.project-grid a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  padding: auto 0;
+}
+
+.project-name {
+  color: #444053;
+  font-weight: bold;
+}
+
+.project-name h5 {
+  color: #444053;
+}
+
+.code-button {
+  background-color: red;
+  margin-right: 40px;
+}
+
+.project-button {
+  background-color: blue;
+}

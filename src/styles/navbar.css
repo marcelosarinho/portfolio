@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #444053;
+  height: 70px;
+}
+
+.navbar-nav {
+  padding-left: 1460px !important;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  padding-right: 30px !important;
+}
+
+.nav-link:hover {
+  color: #D0D2D5 !important;
+}
