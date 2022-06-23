@@ -1,20 +1,21 @@
-.about-me-section {
+.about-me-general {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 50vh;
+}
+
+.about-me-technologies {
+  height: 75vh;
 }
 
 ul {
   padding: 0;
 }
 
-.about-me-second-div {
+.about-me-info-div {
   display: flex;
   flex-direction: column;
-}
-
-.about-me-third-div {
-  display: flex;
 }
 
 .about-me-image {
@@ -42,24 +43,41 @@ ul {
   font-weight: bold;
 }
 
-.technology-flex-div {
-  width: 200px;
-  display: inline-block;
-}
-
-.technology-name {
-  list-style: none;
-  padding-bottom: 10px;
-}
-
-.technology-logo {
-  width: 75px
-}
-
 .btn {
   margin-top: 40px;
 }
 
 .button-div {
   text-align: center;
+}
+
+.technologies-grid {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  height: 390px;
+  gap: 40px 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.technology {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.technology-name h5 {
+  color: #444053;
+  font-weight: bold;
+}
+
+.technology-image img {
+  width: 100px;
+}
+
+.observation {
+  color: #444053;
 }

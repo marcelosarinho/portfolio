@@ -8,10 +8,10 @@ const PortfolioFooter = () => (
     <div className="social-icons">
       <h5>Redes sociais</h5>
       <div className="social-logos">
-        <a type="button" href="#">
+        <a href="https://github.com/marcelosarinho" type="button">
           <Github color="black" width="45" height="45" />
         </a>
-        <a type="button" href="#">
+        <a className="linkedin-logo" href="#" type="button">
           <Linkedin width="45" height="45" />
         </a>
       </div>
@@ -20,10 +20,13 @@ const PortfolioFooter = () => (
       <h5>Site feito por mim (Marcelo Sarinho)</h5>
     </div>
     <div className="made-with-react-bootstrap">
-      <h5>Site criado utilizando React, React Bootstrap e React Bootstrap Icons</h5>
+      <h5>Site criado utilizando <a className="site-name" href="https://reactjs.org/">React</a>, <a className="site-name" href="https://react-bootstrap.github.io/">React Bootstrap</a> e <a className="site-name" href="https://www.npmjs.com/package/react-bootstrap-icons">React Bootstrap Icons</a></h5>
     </div>
-    <div className="images-isometric">
-      <h5>As imagens foram baixada do site Undraw</h5>
+    <div className="images-undraw">
+      <h5>As imagens foram baixadas do site <a className="site-name" href="https://undraw.co/">Undraw</a></h5>
+    </div>
+    <div className="animation-aos">
+      <h5>As animações utilizadas são da biblioteca <a className="site-name" href="https://michalsnik.github.io/aos/">AOS</a></h5>
     </div>
   </footer>
 )

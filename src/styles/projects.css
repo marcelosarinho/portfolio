@@ -1,34 +1,82 @@
-.project-grid {
-  background-color: #D0D2D5;
-  border-radius: 8px;
+.projects-section {
+  height: 315vh;
 }
 
-.project-grid a {
+.projects-div {
+  margin-top: 70px;
+}
+
+.project {
+  background-color: #444053;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  width: 100px;
-  height: 30px;
-  border-radius: 5px;
-  text-align: center;
-  padding: auto 0;
+  height: 500px;
+  margin-bottom: 80px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 12px;
 }
 
-.project-name {
-  color: #444053;
+.project-info {
+  width: 500px;
+}
+
+.info-left {
+  padding-left: 40px;
+  padding-right: 70px;
+}
+
+.info-right {
+  padding-right: 20px;
+}
+
+.image-right {
+  padding-left: 40px;
+  padding-right: 70px;
+}
+
+.project-info h3 {
+  color: #536DFE;
+  font-size: 45px;
   font-weight: bold;
 }
 
-.project-name h5 {
+.project-info h5 {
+  color: #FFFFFF;
+}
+
+.project-info a {
+  font-size: 20px;
+  text-decoration: none;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  padding: 9px;
+  border-radius: 5px;
+}
+
+.project-image img {
+  width: 750px;
+}
+
+.project-button {
+  margin-top: 60px;
+  background-color: #536DFE;
+  color: #FFFFFF;
+  margin-right: 50px;
+}
+
+.project-button:hover {
+  background-color: #D0D2D5;
   color: #444053;
 }
 
 .code-button {
-  background-color: red;
-  margin-right: 40px;
+  background-color: #EDF0FF;
+  color: #536DFE;
 }
 
-.project-button {
-  background-color: blue;
+.code-button:hover {
+  background-color: #D0D2D5;
+  color: #444053;
 }
