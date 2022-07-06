@@ -13,7 +13,7 @@ code {
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -22,6 +22,7 @@ code {
 
 ::-webkit-scrollbar-thumb {
   background: #536DFE;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

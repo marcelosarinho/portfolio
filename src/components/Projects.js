@@ -3,6 +3,8 @@ import "../styles/projects.css";
 import cloneSpaceXImg from "../assets/images/cloneSpaceX.png";
 import pokedexImg from "../assets/images/pokedex.png";
 import rickAndMortyAppImg from "../assets/images/rickAndMortyApp.png";
+import cloneEvernoteJSImg from "../assets/images/cloneEvernoteJS.png";
+import toDoListImg from "../assets/images/toDoList.png";
 
 const Projects = () => (
   <section id="projects" className="projects-section">
@@ -21,7 +23,7 @@ const Projects = () => (
           <a className="code-button" href="https://github.com/marcelosarinho/To_Do_List" type="button">Ver código</a>
         </div>
         <div className="project-image image-left">
-          <img></img>
+          <img src={toDoListImg} alt="to-do-list"></img>
         </div>
       </div>
       <div data-aos="fade-left" data-aos-duration="1200" className="project right-project">
@@ -30,7 +32,7 @@ const Projects = () => (
         </div>
         <div className="project-info info-right">
           <h3 className="project-title-right">Clone SpaceX</h3>
-          <h5>Clone do site da SpaceX, criado durante o curso Programador Full Stack Javascript, da OneBitproject. O foco nesse projeto foi aprender sobre
+          <h5>Clone do site da SpaceX, criado durante o curso Programador Full Stack Javascript, da OneBitCode. O foco nesse projeto foi aprender sobre
             o front-end, utilizando HTML, CSS e o framework Bootstrap. </h5>
           <a className="project-button" type="button" href="#">Ver projeto</a>
           <a className="code-button" href="https://github.com/marcelosarinho/projeto_clone_spacex" type="button">Ver código</a>
@@ -51,11 +53,11 @@ const Projects = () => (
       </div>
       <div data-aos="fade-left" data-aos-duration="1200" className="project right-project">
         <div className="project-image image-right">
-          <img></img>
+          <img src={cloneEvernoteJSImg} alt="clone-evernote-js"></img>
         </div>
         <div className="project-info info-right">
           <h3 className="project-title-right">Clone Evernote</h3>
-          <h5>Clone do aplicativo Evernote, criado durante o curso Programador Full Stack Javascript, da OneBitproject. O foco nesse projeto foi praticar tanto
+          <h5>Clone do aplicativo Evernote, criado durante o curso Programador Full Stack Javascript, da OneBitCode. O foco nesse projeto foi praticar tanto
             o front-end quanto o back-end, utilizando as tecnologias aprendidas durante o curso (NodeJS, React, Express, MongoDB, Mongoose, Bulma, JavaScript,
             entre outros.)
           </h5>

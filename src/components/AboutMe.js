@@ -108,7 +108,7 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <h3 data-aos="zoom-out" data-aos-duration="1200" className="observation">OBS: Também sei utilizar NodeJS, Express, MongoDB e Mongoose, porém sem muita confiança.</h3>
+        <h3 data-aos="zoom-out" data-aos-duration="1200" className="observation">OBS: Também sei utilizar NodeJS, Express, MongoDB e Mongoose, porém sem muito aprofundamento.</h3>
       </div>
     </section>
   )
