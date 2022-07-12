@@ -10,7 +10,7 @@ const Contact = () => (
       </h4>
     </span>
     <div data-aos="fade-down-right" data-aos-duration="1200" className="button-div">
-      <a className="btn btn-primary" type="button" href="#">Enviar e-mail</a>
+      <a className="btn btn-primary" type="button" href="mailto:marceloactsarinho@gmail.com">Enviar e-mail</a>
     </div>
   </section>
 )

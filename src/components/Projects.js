@@ -20,7 +20,7 @@ const Projects = () => (
             utilzando NodeJS, MongoDB, Mongoose e Express, além de EJS.
           </h5>
           <a className="project-button" type="button" href="#">Ver projeto</a>
-          <a className="code-button" href="https://github.com/marcelosarinho/To_Do_List" type="button">Ver código</a>
+          <a className="code-button" href="https://github.com/marcelosarinho/toDoList" type="button">Ver código</a>
         </div>
         <div className="project-image image-left">
           <img src={toDoListImg} alt="to-do-list"></img>

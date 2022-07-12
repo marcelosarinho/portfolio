@@ -11,7 +11,7 @@ const PortfolioFooter = () => (
         <a href="https://github.com/marcelosarinho" type="button">
           <Github color="black" width="45" height="45" />
         </a>
-        <a className="linkedin-logo" href="#" type="button">
+        <a className="linkedin-logo" href="https://www.linkedin.com/in/marcelo-sarinho-a4706923a/" type="button">
           <Linkedin width="45" height="45" />
         </a>
       </div>
