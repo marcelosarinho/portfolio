@@ -7,7 +7,7 @@
 <a href="https://github.com/marcelosarinho/portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/marcelosarinho/portfolio?style=social"></a>
 <a href="https://github.com/marcelosarinho/portfolio"><img alt="GitHub license" src="https://img.shields.io/github/license/marcelosarinho/portfolio?style=flat-square"></a>
 </p>
-<p style="text-decoration: none" align="center">
+<p align="center">
 <a href="#sobre">Sobre</a> • 
 <a href="#tecnologia">Tecnologia</a> • 
 <a href="#autor">Autor</a>
