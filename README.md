@@ -9,6 +9,7 @@
 </p>
 <p align="center">
 <a href="#sobre">Sobre</a> • 
+<a href="#pre-requisitos">Pré-Requisitos</a> • 
 <a href="#tecnologias">Tecnologias</a> • 
 <a href="#licenca">Licença</a> •
 <a href="#autor">Autor</a>
@@ -16,9 +17,9 @@
 <h4 align="center"> ✔️ Projeto finalizado! ✔️ </h4>
 <h1></h1>
 <h3>-----Colocar aqui a demonstração do projeto!-----</h3>
-<h3 id="sobre">Sobre</h3>
+<h2 id="sobre">📖 Sobre</h2>
 <p>Esse repositório é sobre o meu site de portfólio, contendo: informações sobre mim, os projetos que realizei e links para acessá-los (tanto no GitHub quanto no próprio site do projeto), meu currículo em forma de PDF, e meu contato (através do e-mail). Além disso, há também as tecnologias que utilizo para criar qualquer projeto, no geral.</p>
-<h3>Pré-Requisitos</h3>
+<h2 id="pre-requisitos">📋 Pré-Requisitos</h2>
 <p>Caso queira testar o projeto na sua máquina, siga esses passos:</p>
 
 ```bash
@@ -38,4 +39,13 @@ $ npm start
 
 ```
 
-<h3 id="tecnologias">Tecnologias utilizadas</h3>
+<h2 id="tecnologias">💻 Tecnologias utilizadas</h2>
+
+<a href="https://reactjs.org/">![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)</a>
+<a href="https://getbootstrap.com/">![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)</a>
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+<a href="https://www.javascript.com/">![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)</a>
+<a href="https://react-bootstrap.github.io/">• React Bootstrap</a>
+<a href="https://www.npmjs.com/package/react-bootstrap-icons">• React Bootstrap Icons</a>
+<a href="https://michalsnik.github.io/aos/">• AOS</a>
