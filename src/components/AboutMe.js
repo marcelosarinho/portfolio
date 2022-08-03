@@ -28,10 +28,11 @@ const AboutMe = () => {
         <div className="about-me-info-div">
           <h1 data-aos="zoom-in" data-aos-duration="1200" className="title">Sobre mim</h1>
           <span data-aos="zoom-in" data-aos-duration="1200" className="info">
-            <h4>Me chamo Marcelo Sarinho. Tive meu primeiro contato com a área de Tecnologia da Informação em 2021, na faculdade. Desde então, me apaixonei pela
+            <h4>Tive meu primeiro contato com a área de Tecnologia da Informação em 2021, na faculdade. Desde então, me apaixonei pela
               área e passei a estudar diariamente. Atualmente estou estudando Front-End e buscando um estágio, e espero futuramente tornar-me
               um desenvolvedor Full Stack.</h4>
-            <h4>Sou uma pessoa muito determinada e ambiciosa.</h4>
+            <h4>Sou uma pessoa muito determinada e ambiciosa. Busco sempre melhorar, utilizando os erros como uma forma de feedback, além de estar em constante 
+              estudo na área de TI.</h4>
             <h3 className="subtitle">O que eu faço?</h3>
             <h4>Desenvolvo o Front-End dos sites, conciliando a questão visual com a funcional (interação do usuário com o site).</h4>
           </span>
