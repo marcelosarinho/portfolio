@@ -15,7 +15,16 @@
 </p>
 <h4 align="center"> ✔️ Projeto finalizado! ✔️ </h4>
 <h1></h1>
-<h3>-----Colocar aqui a demonstração do projeto!-----</h3>
+<h2>🌐 Demonstração</h2>
+<div>
+  <h3 align="center">
+  <img src="./screenshots/paginaInicial.png"/>
+  </h3>
+  <br/>
+  <h3 align="center">
+   <img src="./screenshots/paginaInicial.png"/>
+  </h3>
+</div>
 <h2 id="sobre">📖 Sobre</h2>
 <p>Esse repositório é sobre o meu site de portfólio, contendo: informações sobre mim, os projetos que realizei e links para acessá-los (tanto no GitHub quanto no próprio site do projeto), meu currículo em forma de PDF, e meu contato (através do e-mail). Além disso, há também as tecnologias que utilizo para criar qualquer projeto, no geral.</p>
 <h2 id="pre-requisitos">📋 Pré-Requisitos</h2>
