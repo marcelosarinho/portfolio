@@ -5,7 +5,6 @@
 <a href="https://github.com/marcelosarinho/portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/marcelosarinho/portfolio?style=flat-square"></a>
 <a href="https://github.com/marcelosarinho/portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/marcelosarinho/portfolio?style=flat-square"></a>
 <a href="https://github.com/marcelosarinho/portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/marcelosarinho/portfolio?style=social"></a>
-<a href="https://github.com/marcelosarinho/portfolio/blob/main/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/github/license/marcelosarinho/portfolio?style=flat-square"></a>
 </p>
 <p align="center">
 <a href="#sobre">Sobre</a> • 
@@ -58,9 +57,9 @@ $ npm start
 <br/>
 <a href="https://michalsnik.github.io/aos/">• AOS</a>
 
-<h2 id="#licenca"> Licença</h2>
+<h2 id="licenca">Licença</h2>
 Esse projeto utiliza a Licença MIT.
-<h2 id="#autor">Autor</h2>
+<h2 id="autor">Autor</h2>
 <div align="center">
 <a href="https://github.com/marcelosarinho">
 <img src="" style="border-radius: 50%;"/>
