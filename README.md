@@ -61,9 +61,13 @@ $ npm start
 <h2 id="#licenca"> Licença</h2>
 Esse projeto utiliza a Licença MIT.
 <h2 id="#autor">Autor</h2>
-
+<div align="center">
 <a href="https://github.com/marcelosarinho">
 <img src="" style="border-radius: 50%;"/>
 </a>
-<h3>Marcelo Sarinho</h3>
+<a href="https://github.com/marcelosarinho"><h3>Marcelo Sarinho</h3></a>
 <h5>Contato</h5>
+<a href="https://github.com/marcelosarinho"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/marcelo-sarinho-a4706923a/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:marceloactsarinho@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</div>
