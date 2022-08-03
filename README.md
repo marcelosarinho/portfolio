@@ -55,11 +55,11 @@ $ npm start
 <br/>
 <a href="https://www.npmjs.com/package/react-bootstrap-icons">• React Bootstrap Icons</a>
 <br/>
-<a href="https://michalsnik.github.io/aos/">• AOS</a>
 
-<h2 id="licenca">Licença</h2>
+<a href="https://michalsnik.github.io/aos/">• AOS</a>
+<h2 id="licenca">📜 Licença</h2>
 Esse projeto utiliza a Licença MIT.
-<h2 id="autor">Autor</h2>
+<h2 id="autor">👨‍💻 Autor</h2>
 <div align="center">
 <a href="https://github.com/marcelosarinho">
 <img src="" style="border-radius: 50%;"/>
