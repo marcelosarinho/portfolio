@@ -58,9 +58,9 @@ $ npm start
 <br/>
 <a href="https://michalsnik.github.io/aos/">• AOS</a>
 
-<h2>Licença</h2>
+<h2 id="#licenca">Licença</h2>
 Esse projeto utiliza a Licença MIT.
-<h2>Autor</h2>
+<h2 id="#autor">Autor</h2>
 <a>
 <img src="" style="border-radius: 50%;">
 </a>
