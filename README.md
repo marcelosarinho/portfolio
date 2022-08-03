@@ -22,7 +22,7 @@
   </h3>
   <br/>
   <h3 align="center">
-   <img src="./screenshots/paginaInicial.png"/>
+   <img src="./screenshots/sobreMim.png"/>
   </h3>
 </div>
 <h2 id="sobre">📖 Sobre</h2>
