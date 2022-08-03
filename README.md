@@ -58,20 +58,12 @@ $ npm start
 <br/>
 <a href="https://michalsnik.github.io/aos/">• AOS</a>
 
-<h2 id="#licenca">Licença</h2>
+<h2 id="#licenca"> Licença</h2>
 Esse projeto utiliza a Licença MIT.
 <h2 id="#autor">Autor</h2>
+
 <a href="https://github.com/marcelosarinho">
 <img src="" style="border-radius: 50%;"/>
 </a>
 <h3>Marcelo Sarinho</h3>
 <h5>Contato</h5>
-<a>
-![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
-</a>
-<a>
-
-</a>
-<a>
-
-</a>
