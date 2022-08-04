@@ -74,7 +74,7 @@ Esse projeto utiliza a Licença MIT.
 <a href="https://github.com/marcelosarinho">
 <img src="https://avatars.githubusercontent.com/u/105175233?s=400&u=319025640369177cd290b894f1ffd06363059b64&v=4" width="150px"/>
 </a>
-<a href="https://github.com/marcelosarinho"><h3>Marcelo Sarinho</h3></a>
+<h3>Marcelo Sarinho</h3>
 <h4>Contato</h4>
 <a href="https://github.com/marcelosarinho"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/marcelo-sarinho-a4706923a/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
