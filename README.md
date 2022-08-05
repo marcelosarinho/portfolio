@@ -64,7 +64,6 @@ $ npm start
 <br/>
 <a href="https://www.npmjs.com/package/react-bootstrap-icons">• React Bootstrap Icons</a>
 <br/>
-
 <a href="https://michalsnik.github.io/aos/">• AOS</a>
 <h2 id="licenca">📜 Licença</h2>
 Esse projeto utiliza a Licença MIT.
