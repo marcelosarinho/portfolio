@@ -5,3 +5,7 @@
 main {
   font-family: "Geist", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
