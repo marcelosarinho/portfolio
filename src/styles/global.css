@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .brutal-shadow-sm {
+    box-shadow: 7px 7px 0px 0px #000000;
+  }
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
