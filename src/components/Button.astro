@@ -14,6 +14,8 @@ const classMap: Record<ButtonColor, string> = {
 const classes = classMap[color] ?? 'text-black bg-white';
 ---
 
-<button class=`${classes} uppercase text-xl px-6 py-4 border-4 border-black font-black hover:cursor-pointer`>
+<button class={`${classes} transition-all duration-150 hover:cursor-pointer hover:shadow-[7px_7px_0px_0px_#000000] hover:-translate-x-0.5
+  hover:-translate-y-0.5 uppercase text-xl px-6 py-4 border-4 border-black font-black`}
+>
   <slot />
 </button>
