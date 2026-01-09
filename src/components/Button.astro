@@ -1,0 +1,19 @@
+---
+type ButtonColor = 'white' | 'black' | 'lime';
+
+const { color } = Astro.props as {
+  color: ButtonColor;
+};
+
+const classMap: Record<ButtonColor, string> = {
+  black: 'text-white bg-black',
+  white: 'bg-white',
+  lime: 'text-white bg-custom-lime'
+}
+
+const classes = classMap[color] ?? 'text-black bg-white';
+---
+
+<button class=`${classes} uppercase text-xl px-6 py-4 border-4 border-black font-black hover:cursor-pointer`>
+  <slot />
+</button>
