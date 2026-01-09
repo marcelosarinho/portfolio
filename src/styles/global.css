@@ -1,8 +1,28 @@
 @import "tailwindcss";
 
+@theme {
+  --color-custom-lime: #ADFF02;
+  --color-custom-cyan: #02F1FF;
+
+  --animate-floating: floating 7s ease-in-out infinite;
+
+  @keyframes floating {
+    0, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5%);
+    }
+  }
+}
+
 @layer utilities {
   .brutal-shadow-sm {
     box-shadow: 7px 7px 0px 0px #000000;
+  }
+
+  .brutal-shadow-lg {
+    box-shadow: 9px 9px 0px 0px #000000;
   }
 }
 
