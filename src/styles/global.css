@@ -5,6 +5,7 @@
   --color-custom-cyan: #02F1FF;
 
   --animate-floating: floating 7s ease-in-out infinite;
+  --animate-marquee: marquee 60s linear infinite;
 
   @keyframes floating {
     0, 100% {
@@ -12,6 +13,15 @@
     }
     50% {
       transform: translateY(-5%);
+    }
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
     }
   }
 }
