@@ -3,6 +3,8 @@
 @theme {
   --color-custom-lime: #ADFF02;
   --color-custom-cyan: #02F1FF;
+  --color-custom-purple: #BC01FF;
+  --color-custom-orange: #FF5D01;
 
   --animate-floating: floating 7s ease-in-out infinite;
   --animate-marquee: marquee 60s linear infinite;

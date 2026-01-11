@@ -1,0 +1,23 @@
+---
+type TitleColor = 'black' | 'cyan' | 'purple' | 'orange';
+
+interface Props {
+  title: string;
+  color?: TitleColor;
+}
+
+const { title, color = 'black'} = Astro.props as Props;
+
+const colorMap: Record<TitleColor, string> = {
+  black: 'text-black',
+  purple: 'text-custom-purple',
+  orange: 'text-custom-orange',
+  cyan: 'text-custom-cyan',
+}
+
+const titleColor = colorMap[color];
+---
+
+<div class="col-span-4 p-8 bg-white border-4 brutal-shadow-sm text-2xl font-bold">
+  <h1 class={`uppercase tracking-tight ${titleColor}`}>{title}</h1>
+</div>
