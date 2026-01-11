@@ -8,11 +8,35 @@ import SkillCard from "./SkillCard.astro";
   </h1>
 
   <div class="grid grid-cols-12 gap-6 mt-8">
-    <SkillCard title="Front-end" color="black" />
-    <SkillCard title="Back-end" color="purple" />
-    <SkillCard title="Banco de Dados e ORM" color="orange" />
-    <SkillCard title="DevOps" color="cyan" />
-    <SkillCard title="Testes" color="black" />
-    <SkillCard title="Ferramentas" color="purple" />
+    <SkillCard
+      title="Front-end"
+      color="black"
+      skills={['HTML', 'CSS', 'Tailwind CSS', 'Bootstrap', 'Bulma', 'Material UI', 'PrimeFaces', 'JavaScript', 'TypeScript', 'React', 'Vue.js', 'Next.js', 'Inertia', 'React Router', 'TanStack Query']}
+    />
+    <SkillCard
+      title="Back-end"
+      color="purple"
+      skills={['Node.js', 'PHP', 'Express', 'Fastify', 'Laravel', 'REST API', 'GraphQL', 'Apollo']}
+    />
+    <SkillCard
+      title="Banco de Dados e ORM"
+      color="orange"
+      skills={['MySQL', 'PostgreSQL', 'Oracle', 'TypeORM', 'Prisma', 'DrizzleORM']}
+      />
+    <SkillCard
+      title="DevOps"
+      color="cyan"
+      skills={['Docker', 'AWS', 'Linux']}
+      />
+    <SkillCard
+      title="Testes"
+      color="black"
+      skills={['Jest (testes unitários)']}
+      />
+    <SkillCard
+      title="Ferramentas"
+      color="purple"
+      skills={['VS Code', 'Vite', 'Git', 'GitHub', 'Postman', 'Figma', 'Asana', 'Windsurf', 'Claude Code']}
+      />
   </div>
 </section>
