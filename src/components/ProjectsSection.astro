@@ -1,14 +1,33 @@
+---
+import Project from "./Project.astro";
+import bookTracker from "../../public/projects/book-tracker.jpg";
+import browserTabs from "../../public/projects/browser-tabs.png";
+import drawingApp from "../../public/projects/drawing-app.png";
+import kanban from "../../public/projects/kanban.png";
+---
+
 <section class="mt-24">
   <h1 class="uppercase bg-custom-orange text-white font-black w-fit tracking-tight px-3 py-2 text-3xl">
     Meus projetos
   </h1>
 
-  <div class="mt-8 grid grid-cols-12 gap-10">
-    <div class="col-span-6 bg-custom-purple border-4 brutal-shadow-lg hover:-translate-x-1 hover:-translate-y-1 transition-all">
-      Fodase
-    </div>
-    <div class="col-span-6 bg-custom-orange border-4 brutal-shadow-lg hover:-translate-x-1 hover:-translate-y-1 transition-all">
-      Fodase
-    </div>
+  <div class="mt-8 grid grid-cols-2 gap-x-10 gap-y-14">
+    <Project
+      photo={kanban.src}
+      name="Kanban"
+      description="Um gerenciador de tarefas no formato de Kanban, voltado para projetos de tecnologia. Nele, é possível criar diversos projetos, e organizar as suas devidas tarefas por categoria, estado, entre outros." />
+    <Project
+      photo={drawingApp.src}
+      name="Drawing App"
+      description="Uma aplicação que possibilita ao usuário desenhar livremente ou com formas geométricas, apagar o desenho por completo e salvá-lo no próprio computador após finalizar." />
+    <Project
+      photo={browserTabs.src}
+      name="Browser Tabs"
+      description="Uma simulação de um navegador de internet. No caso, só foi feita a lógica por trás de um navegador, já que não implementei protocolos de navegação utilizados em um navegador oficial." />
+    <Project
+      photo={bookTracker.src}
+      name="Book Tracker"
+      description="Um sistema de gerenciamento de livros. Aqui, o desafio foi tentar aprender o máximo de C# possível em um final de semana para uma entrevista de vaga de emprego."
+    />
   </div>
 </section>
