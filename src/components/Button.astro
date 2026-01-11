@@ -1,21 +1,31 @@
 ---
 type ButtonColor = 'white' | 'black' | 'lime';
+type ButtonSize = 'sm' | 'lg';
 
-const { color } = Astro.props as {
+interface Props {
   color: ButtonColor;
-};
+  size: ButtonSize;
+}
+
+const { color, size } = Astro.props as Props;
 
 const classMap: Record<ButtonColor, string> = {
   black: 'text-white bg-black',
   white: 'bg-white',
-  lime: 'text-white bg-custom-lime'
+  lime: 'bg-custom-lime'
+}
+
+const sizeMap: Record<ButtonSize, string> = {
+  sm: 'text-xl px-6 py-4',
+  lg: 'text-3xl px-10 py-6',
 }
 
 const classes = classMap[color] ?? 'text-black bg-white';
+const sizes = sizeMap[size] ?? 'text-xl';
 ---
 
 <button class={`${classes} transition-all duration-150 hover:cursor-pointer hover:shadow-[7px_7px_0px_0px_#000000] hover:-translate-x-0.5
-  hover:-translate-y-0.5 uppercase text-xl px-6 py-4 border-4 border-black font-black`}
+  hover:-translate-y-0.5 uppercase ${sizes} border-4 border-black font-black`}
 >
   <slot />
 </button>
