@@ -16,7 +16,15 @@ const colorMap: Record<TitleColor, string> = {
   cyan: 'text-custom-cyan',
 }
 
+const shadowColorMap: Record<TitleColor, string> = {
+  black: 'hover:shadow-[4px_4px_0px_0px_rgb(0_0_0/1)]',
+  purple: 'hover:shadow-[4px_4px_0px_0px_#BC01FF]',
+  orange: 'hover:shadow-[4px_4px_0px_0px_#FF5D01]',
+  cyan: 'hover:shadow-[4px_4px_0px_0px_#02F1FF]',
+}
+
 const titleColor = colorMap[color];
+const shadowColor = shadowColorMap[color];
 ---
 
 <div class="p-8 bg-white border-4 border-black transition-all duration-200 brutal-shadow-sm
@@ -25,9 +33,11 @@ const titleColor = colorMap[color];
 >
   <h1 class={`text-2xl underline uppercase tracking-tight ${titleColor} font-black`}>{title}</h1>
 
-  <ul class="mt-4 text-lg font-bold">
+  <div class="flex flex-wrap gap-3 mt-4 text-lg font-bold">
     {skills.map(skill => (
-      <li>→ {skill}</li>
+      <span class={`border-2 px-2 py-1 hover:-translate-x-1 hover:-translate-y-1 ${shadowColor} transition`}>
+        {skill}
+      </span>
     ))}
-  </ul>
+  </div>
 </div>

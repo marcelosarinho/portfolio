@@ -28,6 +28,15 @@
   }
 }
 
+@layer base {
+  :root {
+    --color-custom-lime: #ADFF02;
+  --color-custom-cyan: #02F1FF;
+  --color-custom-purple: #BC01FF;
+  --color-custom-orange: #FF5D01;
+  }
+}
+
 @layer utilities {
   .brutal-shadow-sm {
     box-shadow: 7px 7px 0px 0px #000000;

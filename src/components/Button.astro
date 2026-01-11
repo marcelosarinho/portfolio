@@ -21,7 +21,7 @@ const sizeMap: Record<ButtonSize, string> = {
 }
 
 const classes = classMap[color] ?? 'text-black bg-white';
-const sizes = sizeMap[size] ?? 'text-xl';
+const sizes = sizeMap[size] ?? 'text-xl px-6 py-4';
 ---
 
 <button class={`${classes} transition-all duration-150 hover:cursor-pointer hover:shadow-[7px_7px_0px_0px_#000000] hover:-translate-x-0.5
