@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --color-custom-lime: #ADFF02;
   --color-custom-cyan: #02F1FF;
