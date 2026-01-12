@@ -16,8 +16,8 @@ const classMap: Record<ButtonColor, string> = {
 }
 
 const sizeMap: Record<ButtonSize, string> = {
-  sm: 'text-xl px-6 py-4',
-  lg: 'text-3xl px-10 py-6',
+  sm: 'lg:text-xl lg:px-6 lg:py-4 text-lg px-4 py-2',
+  lg: 'lg:text-3xl lg:px-10 lg:py-6 text-2xl px-8 py-4',
 }
 
 const classes = classMap[color] ?? 'text-black bg-white';
