@@ -3,13 +3,35 @@ import Logo from "./Logo.astro";
 import NavbarOption from "./NavbarOption.astro";
 ---
 
-<div class="fixed z-60 size-full bg-gray-100 p-4">
-  <Logo />
+<div id="mobile-sidebar" class="hidden transition animate-slide-in-from-right z-60 size-full bg-gray-100 p-6">
+  <button id="close-sidebar-btn" class="absolute right-7 flex justify-center items-center">
+    <i class="ph-bold ph-x text-xl"></i>
+  </button>
 
-  <ul class="flex flex-col">
+  <Logo layout="sidebar" />
+
+  <ul class="flex flex-col font-black uppercase gap-3 mt-6">
     <NavbarOption href="#about">Sobre</NavbarOption>
     <NavbarOption href="#skills">Habilidades</NavbarOption>
     <NavbarOption href="#projects">Projetos</NavbarOption>
     <NavbarOption href="#contact">Contato</NavbarOption>
   </ul>
 </div>
+
+<script is:inline>
+  function closeSidebar() {
+    mobileSidebar.classList.replace('fixed', 'hidden');
+  }
+
+  function redirectFromSidebar(href) {
+    window.location.hash = href;
+
+    closeSidebar();
+  }
+
+  const closeSidebarBtn = document.getElementById('close-sidebar-btn');
+
+  closeSidebarBtn.addEventListener('click', () => {
+    closeSidebar();
+  });
+</script>
