@@ -11,7 +11,7 @@ import ThemeSwitcher from "./ThemeSwitcher.astro";
 
   <Logo layout="sidebar" />
 
-  <ul class="flex flex-col font-black uppercase gap-3 mt-6">
+  <ul id="mobile-sidebar-list" class="flex flex-col font-black uppercase gap-3 mt-6">
     <NavbarOption href="#about">Sobre</NavbarOption>
     <NavbarOption href="#skills">Habilidades</NavbarOption>
     <NavbarOption href="#projects">Projetos</NavbarOption>
@@ -26,13 +26,16 @@ import ThemeSwitcher from "./ThemeSwitcher.astro";
     mobileSidebar.classList.replace('fixed', 'hidden');
   }
 
-  function redirectFromSidebar(href) {
-    window.location.hash = href;
+  const closeSidebarBtn = document.getElementById('close-sidebar-btn');
+  const mobileSidebarList = document.getElementById('mobile-sidebar-list');
+
+  mobileSidebarList.addEventListener('click', (event) => {
+    const link = event.target.closest('a');
+
+    if (!link) return;
 
     closeSidebar();
-  }
-
-  const closeSidebarBtn = document.getElementById('close-sidebar-btn');
+  });
 
   closeSidebarBtn.addEventListener('click', () => {
     closeSidebar();
