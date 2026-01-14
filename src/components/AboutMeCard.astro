@@ -18,8 +18,8 @@ const colorsMap: Record<Colors, string> = {
 const cardColor = colorsMap[color];
 ---
 
-<div class={`border-4 flex items-center justify-center bg-neutral-200 dark:bg-neutral-700 dark:text-neutral-300 border-black col-span-3
-  text-center p-8 text-xl uppercase font-bold ${cardColor}`}
+<div class={`border-4 flex items-center justify-center bg-neutral-200 dark:bg-neutral-700 dark:text-neutral-300 border-black
+  lg:col-span-3 md:col-span-6 col-span-12 text-center p-8 text-xl uppercase font-bold ${cardColor}`}
 >
   {title}
 </div>
