@@ -1,9 +1,10 @@
 ---
 import Logo from "./Logo.astro";
 import NavbarOption from "./NavbarOption.astro";
+import ThemeSwitcher from "./ThemeSwitcher.astro";
 ---
 
-<div id="mobile-sidebar" class="hidden transition animate-slide-in-from-right z-60 size-full bg-gray-100 p-6">
+<div id="mobile-sidebar" class="hidden transition animate-slide-in-from-right z-60 size-full p-6">
   <button id="close-sidebar-btn" class="absolute right-7 flex justify-center items-center">
     <i class="ph-bold ph-x text-xl"></i>
   </button>
@@ -15,6 +16,8 @@ import NavbarOption from "./NavbarOption.astro";
     <NavbarOption href="#skills">Habilidades</NavbarOption>
     <NavbarOption href="#projects">Projetos</NavbarOption>
     <NavbarOption href="#contact">Contato</NavbarOption>
+
+    <ThemeSwitcher />
   </ul>
 </div>
 
