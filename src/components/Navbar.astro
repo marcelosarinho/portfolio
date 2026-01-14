@@ -24,28 +24,8 @@ import ThemeSwitcher from "./ThemeSwitcher.astro";
 </nav>
 
 <script is:inline>
-  function setTheme(theme) {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-
-      return;
-    }
-
-    document.documentElement.classList.remove('dark');
-    localStorage.setItem('theme', 'light');
-
-    return;
-  }
-
-  const themeButton = document.getElementById('theme-btn');
   const mobileSidebarButton = document.getElementById('mobile-sidebar-btn');
   const mobileSidebar = document.getElementById('mobile-sidebar');
-
-  themeButton?.addEventListener('click', () => {
-    const isDark = document.documentElement.classList.contains('dark');
-    setTheme(isDark ? 'light' : 'dark');
-  });
 
   mobileSidebarButton.addEventListener('click', () => {
     mobileSidebar.classList.replace('hidden', 'fixed');
