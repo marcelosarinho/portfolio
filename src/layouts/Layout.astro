@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-full dark">
+<html lang="en" class="min-h-screen">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -20,7 +20,15 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Marcelo Sarinho</title>
 	</head>
-	<body class="m-0 h-full dark:bg-neutral-800 bg-[radial-gradient(black_1.5px,transparent_0)] dark:bg-[radial-gradient(#4F4F4F_1.5px,transparent_0)] bg-size-[40px_40px]">
+	<body class="m-0 min-h-screen dark:bg-neutral-800 bg-[radial-gradient(black_1.5px,transparent_0)] dark:bg-[radial-gradient(#4F4F4F_1.5px,transparent_0)] bg-size-[40px_40px]">
 		<slot />
 	</body>
 </html>
+
+<script is:inline>
+	const theme = localStorage.getItem('theme');
+
+	const shouldUseDark = theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+	document.documentElement.classList.toggle('dark', shouldUseDark);
+</script>

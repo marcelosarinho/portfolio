@@ -3,7 +3,7 @@ import Logo from "./Logo.astro";
 import NavbarOption from "./NavbarOption.astro";
 ---
 
-<nav class="sticky top-4 z-50 flex items-center justify-between uppercase font-black border-4 bg-white p-6 brutal-shadow-sm tracking-tight">
+<nav class="sticky top-4 z-50 flex items-center justify-between uppercase font-black border-4 bg-white p-6 brutal-shadow-sm tracking-tight dark:bg-neutral-600 dark:text-neutral-300 dark:border-black">
   <Logo layout="navbar" />
 
   <ul class="hidden items-center gap-4 md:flex">
@@ -14,10 +14,14 @@ import NavbarOption from "./NavbarOption.astro";
 
     <li class="h-4 border"></li>
 
-    <button id="theme-btn" class="flex items-center justify-center hover:cursor-pointer">
-      <i class="ph-bold ph-sun text-2xl"></i>
-      <i class="ph-bold ph-moon text-2xl hidden"></i>
-    </button>
+    <div id="theme-btn" class="relative border-2 bg-white dark:bg-neutral-900 w-16 rounded-full p-1 h-9 rounded-brutal-shadow-sm hover:cursor-pointer">
+      <div id="light-mode" class="absolute top-1 left-1 size-6 rounded-full bg-black dark:bg-custom-lime flex items-center justify-center
+          transition-transform duration-300 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] dark:translate-x-7"
+      >
+        <i class="ph-bold ph-sun absolute text-white transition-opacity duration-200 dark:opacity-0"></i>
+        <i class="ph-bold ph-moon absolute opacity-0 transition-opacity duration-200 dark:opacity-100 text-black"></i>
+      </div>
+    </div>
   </ul>
 
   <button id="mobile-sidebar-btn" class="block md:hidden">
@@ -26,16 +30,27 @@ import NavbarOption from "./NavbarOption.astro";
 </nav>
 
 <script is:inline>
+  function setTheme(theme) {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+
+      return;
+    }
+
+    document.documentElement.classList.remove('dark');
+    localStorage.setItem('theme', 'light');
+
+    return;
+  }
+
   const themeButton = document.getElementById('theme-btn');
   const mobileSidebarButton = document.getElementById('mobile-sidebar-btn');
   const mobileSidebar = document.getElementById('mobile-sidebar');
 
   themeButton?.addEventListener('click', () => {
-    const sunIcon = document.querySelector('.ph-sun');
-    sunIcon.classList.toggle('hidden');
-
-    const moonIcon = document.querySelector('.ph-moon');
-    moonIcon.classList.toggle('hidden');
+    const isDark = document.documentElement.classList.contains('dark');
+    setTheme(isDark ? 'light' : 'dark');
   });
 
   mobileSidebarButton.addEventListener('click', () => {

@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 html {
   scroll-behavior: smooth;
 }
@@ -53,5 +55,9 @@ body {
 
   .brutal-shadow-lg {
     box-shadow: 9px 9px 0px 0px #000000;
+  }
+
+  .rounded-brutal-shadow-sm {
+    box-shadow: 4px 4px 0px 0px #000000;
   }
 }
