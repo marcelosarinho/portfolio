@@ -1,0 +1,25 @@
+---
+type Colors = 'black' | 'orange' | 'cyan' | 'purple';
+
+interface Props {
+  title: string;
+  color: Colors;
+}
+
+const { title, color } = Astro.props as Props;
+
+const colorsMap: Record<Colors, string> = {
+  black: 'shadow-[7px_7px_0px_0px_rgb(0_0_0/1)] dark:shadow-[7px_7px_0px_0px_#DEDEDE]',
+  purple: 'shadow-[7px_7px_0px_0px_#BC01FF]',
+  orange: 'shadow-[7px_7px_0px_0px_#FF5D01]',
+  cyan: 'shadow-[7px_7px_0px_0px_#02F1FF]',
+}
+
+const cardColor = colorsMap[color];
+---
+
+<div class={`border-4 flex items-center justify-center bg-neutral-200 dark:bg-neutral-700 dark:text-neutral-300 border-black col-span-3
+  text-center p-8 text-xl uppercase font-bold ${cardColor}`}
+>
+  {title}
+</div>

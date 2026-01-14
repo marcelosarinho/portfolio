@@ -1,6 +1,21 @@
+---
+import AboutMeCard from "./AboutMeCard.astro";
+---
+
 <section id="about" class="scroll-mt-40 mt-12 border-4 bg-white p-10 brutal-shadow-lg dark:bg-neutral-600">
   <h1 class="mb-8 uppercase px-3 py-2 bg-black w-fit text-white font-black tracking-tight text-3xl">Quem sou eu?</h1>
 
-  <p class="mb-4 font-bold text-xl dark:text-neutral-300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea doloribus quisquam neque nam eos, officiis tenetur accusamus, eius optio ipsa magni expedita possimus quasi labore quam tempora ipsam totam.</p>
-  <p class="font-bold text-xl dark:text-neutral-300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea doloribus quisquam neque nam eos, officiis tenetur accusamus, eius optio ipsa magni expedita possimus quasi labore quam tempora ipsam totam.</p>
+  <p class="mb-4 font-bold text-xl dark:text-neutral-300 text-justify">
+    Desenvolvedor Full Stack com 2 anos de experiência, focado em criar aplicações web performáticas, bem estruturadas e com atenção aos detalhes. Tenho forte base em JavaScript e TypeScript, atuando com React no frontend e Node.js / Laravel no backend. Curto trabalhar tanto na lógica quanto na interface, sempre buscando soluções simples, escaláveis e com boa experiência para o usuário.
+  </p>
+  <p class="font-bold text-xl dark:text-neutral-300 text-justify">
+    Estou em constante evolução como desenvolvedor, sempre buscando aprofundar meus conhecimentos em fundamentos, boas práticas e novas abordagens. Gosto de testar, refatorar e melhorar o que já existe, entendendo o “porquê” por trás de cada decisão técnica.
+  </p>
+
+  <div class="grid grid-cols-12 gap-4 mt-8">
+    <AboutMeCard title="Full-Stack" color="black" />
+    <AboutMeCard title="Foco em performance" color="purple" />
+    <AboutMeCard title="Atenção aos detalhes" color="orange" />
+    <AboutMeCard title="Visão de produto" color="cyan" />
+  </div>
 </section>

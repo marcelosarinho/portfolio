@@ -1,5 +1,5 @@
 ---
-import Button from "./Button.astro";
+import Link from "./Link.astro";
 ---
 
 <section class="grid lg:grid-cols-12 grid-cols-1 mt-12 gap-8">
@@ -8,15 +8,17 @@ import Button from "./Button.astro";
       Code is <span class="bg-black text-custom-lime px-2">poetry</span> but louder.
     </h1>
 
-    <p class="text-2xl font-bold">Transformando problemas complexos em arquiteturas robustas e interfaces que não pedem desculpas por existir.</p>
+    <p class="text-2xl font-bold">
+      Transformo problemas complexos em soluções bem arquitetadas e interfaces objetivas, focadas no uso real.
+    </p>
 
     <div class="mt-6 flex flex-wrap gap-4">
-      <Button size="sm" color="black">
+      <Link href="#projects" size="sm" color="black" >
         Ver projetos
-      </Button>
-      <Button size="sm" color="white">
+      </Link>
+      <Link href="mailto:marceloactsarinho@gmail.com" size="sm" color="white">
         Bora conversar!
-      </Button>
+      </Link>
     </div>
   </div>
 
